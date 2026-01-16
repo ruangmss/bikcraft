@@ -52,6 +52,8 @@
 
   .depoimento-conteudo span {
     font-size: 0.785rem;
+    justify-content: center;
+    justify-self: center add;
   }
 }
 
