@@ -1,0 +1,30 @@
+.termos-bg {
+  background-color: var(--cor-12);
+}
+
+.termos h1 {
+  font: var(--fonte-11);
+  color: var(--cor-1);
+  margin-bottom: 50px;
+}
+
+.termos-conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: var(--cor-1);
+}
+.termos-conteudo-item p {
+  margin: 20px 0px;
+  font: var(--fonte-6);
+}
+
+.termos-conteudo-item h2 {
+  font: var(--fonte-9);
+}
+
+@media (max-width: 1200px) {
+  .termos h1 {
+    margin-bottom: 35px;
+  }
+}
