@@ -1,0 +1,80 @@
+.footer-bg {
+  background-color: var(--cor-12);
+  color: var(--cor-1);
+  padding-top: 100px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.footer h3 {
+  font: var(--fonte-8-bold);
+  margin-bottom: 20px;
+}
+
+.footer-contato ul,
+.footer-informacoes ul {
+  margin-top: 20px;
+  font: var(--fonte-5);
+  color: var(--cor-5);
+}
+
+.footer ul li {
+  margin-bottom: 15px;
+}
+
+.footer-contato ul a:hover,
+.footer-informacoes ul a:hover {
+  color: var(--cor-2);
+}
+
+.footer-contato-redes {
+  display: flex;
+  margin-top: 25px;
+  gap: 15px;
+}
+
+.footer-direitos {
+  font: var(--fonte-6);
+  color: var(--cor-5);
+  grid-column: 1/-1;
+  margin-top: 30px;
+  justify-self: center;
+}
+
+.footer-imagem {
+  justify-self: center;
+}
+
+@media (max-width: 768px) {
+  .footer-bg {
+    padding-top: 50px;
+  }
+
+  .footer {
+    grid-template-columns: 1fr;
+    place-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .footer-contato-redes {
+    justify-self: center;
+  }
+
+  .footer-imagem {
+    grid-row: 1;
+    margin-bottom: 30px;
+  }
+
+  .footer-informacoes {
+    grid-row: 2;
+  }
+
+  .footer-contato {
+    grid-row: 3;
+  }
+}

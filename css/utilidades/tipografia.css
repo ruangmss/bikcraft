@@ -1,0 +1,52 @@
+:root {
+  --fonte-1: 400 0.875rem/1.35 "Poppins", sans-serif;
+  --fonte-2: 400 0.875rem/1.35 "Roboto", sans-serif;
+  --fonte-3: 400 1rem/1.5 "Poppins", sans-serif;
+  --fonte-4: 400 1rem/1.5 "Roboto", sans-serif;
+  --fonte-5: 400 1.125rem/1.35 "Poppins", sans-serif;
+  --fonte-5-bold: 600 1.125rem/1.35 "Poppins", sans-serif;
+  --fonte-6: 400 1.125rem/1.35 "Roboto", sans-serif;
+  --fonte-6-bold: 600 1.125rem/1.35 "Roboto", sans-serif;
+  --fonte-7: 400 1.5rem/1.5 "Poppins", sans-serif;
+  --fonte-8: 400 1.5rem/1.5 "Roboto", sans-serif;
+  --fonte-8-bold: 600 1.5rem/1.5 "Roboto", sans-serif;
+  --fonte-9: 600 2rem/1.25 "Poppins", sans-serif;
+  --fonte-10: 600 2rem/1.25 "Roboto", sans-serif;
+  --fonte-11: 600 4rem/1.125 "Poppins", sans-serif;
+}
+
+@media (max-width: 992px) {
+  :root {
+    --fonte-11: 600 3.25rem/1.125 "Poppins", sans-serif;
+    --fonte-9: 600 1.35rem/1.25 "Poppins", sans-serif;
+    --fonte-8-bold: 400 1.25rem/1.5 "Roboto", sans-serif;
+    --fonte-8: 400 1.25rem/1.5 "Roboto", sans-serif;
+    --fonte-7: 1.25rem/1.5 "Poppins", sans-serif;
+    --fonte-6: 400 1.05rem/1.35 "Roboto", sans-serif;
+    --fonte-5-bold: 600 1rem/1.35 "Poppins", sans-serif;
+    --fonte-5: 400 1rem/1.35 "Poppins", sans-serif;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --fonte-11: 600 3rem/1.125 "Poppins", sans-serif;
+    --fonte-9: 600 1.25rem/1.25 "Poppins", sans-serif;
+    --fonte-8: 400 1.125rem/1.5 "Roboto", sans-serif;
+    --fonte-6: 400 1rem/1.35 "Roboto", sans-serif;
+    --fonte-3: 0.75rem/1.5 "Poppins", sans-serif;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --fonte-11: 600 2rem/1.125 "Poppins", sans-serif;
+    --fonte-9: 600 1rem/1.25 "Poppins", sans-serif;
+    --fonte-8-bold: 400 1.125rem/1.5 "Roboto", sans-serif;
+    --fonte-8: 400 1rem/1.5 "Roboto", sans-serif;
+    --fonte-7: 1.125rem/1.5 "Poppins", sans-serif;
+    --fonte-6: 400 0.875rem/1.35 "Roboto", sans-serif;
+    --fonte-5-bold: 600 0.85rem/1.35 "Poppins", sans-serif;
+    --fonte-5: 400 0.875rem/1.35 "Poppins", sans-serif;
+  }
+}

@@ -1,0 +1,108 @@
+.seguros-bg {
+  background-color: var(--cor-12);
+  color: var(--cor-1);
+}
+
+.seguros {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px 40px;
+  align-items: center;
+}
+
+.seguros h2 {
+  font: var(--fonte-11);
+  grid-column: 1/-1;
+}
+
+.seguros-item {
+  background-color: var(--cor-11);
+  padding: 50px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0px 20px;
+}
+
+.seguros-item h3,
+.seguros-item span {
+  font: var(--fonte-9);
+}
+
+.seguros-item span {
+  grid-column: 2;
+}
+
+.seguros-item ul {
+  grid-column: 1/-1;
+  margin-top: 15px;
+}
+
+.seguros-item li {
+  font: var(--fonte-5);
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.seguros-item li::before {
+  content: "";
+  display: inline-block;
+  width: 13px;
+  height: 9px;
+  background-image: url(../../img/icones/lista.svg);
+}
+
+.seguros-item a {
+  margin-top: 20px;
+  padding: 15px 20px;
+  background-color: var(--cor-7);
+  border-radius: 5px;
+  grid-column: 1;
+  font: var(--fonte-5-bold);
+}
+
+.seguros-item a:hover {
+  background-color: var(--cor-8);
+}
+
+.mensal {
+  font: var(--fonte-3) !important;
+  color: var(--cor-5);
+}
+
+.prata {
+  color: var(--cor-5);
+}
+
+.ouro {
+  color: var(--cor-13);
+}
+
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+  .seguros-item {
+    padding: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .seguros {
+    grid-template-columns: 1fr;
+  }
+
+  .seguros-item a {
+    padding: 12.5px 17.5px;
+  }
+}
+@media (max-width: 480px) {
+  .seguros-item {
+    gap: 0px 10px;
+  }
+
+  .seguros-item a {
+    margin-top: 10px;
+    padding: 10px 15px;
+  }
+}
