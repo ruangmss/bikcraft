@@ -33,9 +33,8 @@
 
 .footer-contato-redes {
   display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 15px;
+  margin-top: 30px;
 }
 
 .footer-direitos {
@@ -73,5 +72,10 @@
 
   .footer-contato {
     grid-row: 3;
+  }
+
+  .footer-contato-redes {
+    justify-content: center;
+    align-items: center;
   }
 }

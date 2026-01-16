@@ -50,3 +50,14 @@ img[src$=".jpg"] {
 .contraste {
   color: var(--cor-13);
 }
+
+.header,
+.footer {
+  border: none;
+  box-shadow: none;
+}
+
+.header hr,
+.footer hr {
+  display: none;
+}
