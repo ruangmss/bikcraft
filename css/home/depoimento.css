@@ -12,9 +12,11 @@
 }
 
 .depoimento-conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: var(--cor-13);
-  justify-items: center;
-  align-content: center;
   color: var(--cor-17);
   padding: 40px;
 }
