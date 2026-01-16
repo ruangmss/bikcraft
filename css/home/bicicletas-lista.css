@@ -35,6 +35,12 @@
   padding-left: 17.5px;
 }
 
+@media (max-width: 1200px) {
+  .bicicletas-lista-item:hover h3::before {
+    width: 10px;
+  }
+}
+
 @media (max-width: 992px) {
   .bicicletas h2 {
     margin-bottom: 30px;
