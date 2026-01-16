@@ -29,9 +29,9 @@
 
 .depoimento-conteudo span {
   font: var(--fonte-5-bold);
-  justify-self: center;
-  align-self: center;
+  text-align: center;
   display: block;
+  margin: 0 auto;
 }
 
 @media (max-width: 992px) {
