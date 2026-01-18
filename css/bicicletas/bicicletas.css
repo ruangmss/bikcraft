@@ -70,7 +70,6 @@
 }
 
 .bicicletas-page-item-conteudo a {
-  align-self: center;
   padding: 15px 20px;
   color: var(--cor-17);
   background-color: var(--cor-13);
@@ -97,6 +96,14 @@
     gap: 0px;
   }
 
+  .bicicletas-page-item-conteudo {
+    gap: 10px;
+  }
+
+  .bicicletas-page-item-conteudo div {
+    margin-top: 10px;
+  }
+
   .bicicletas-page-item + .bicicletas-page-item {
     margin-top: 40px;
   }
@@ -107,5 +114,15 @@
 
   .bicicletas-page-item-conteudo li + li {
     margin-top: 7.5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bicicletas-page-item-conteudo div {
+    gap: 20px;
+  }
+
+  .bicicletas-page-item-conteudo a {
+    padding: 10px 15px;
   }
 }
