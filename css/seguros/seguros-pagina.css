@@ -22,7 +22,7 @@
 
 .vantagens-lista h3 {
   font: var(--fonte-7);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .vantagens-lista p {
@@ -87,6 +87,11 @@
 
 .perguntas-frequentes dt:hover::after {
   transform: rotate(180deg);
+}
+
+.perguntas-frequentes-lista-item a {
+  text-decoration: underline;
+  color: inherit;
 }
 
 .perguntas-frequentes-lista dd {

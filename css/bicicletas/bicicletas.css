@@ -101,6 +101,10 @@
     gap: 30px;
   }
 
+  .bicicletas-page h1 {
+    margin-bottom: 10px;
+  }
+
   .bicicletas-page-item {
     grid-template-columns: 1fr;
     gap: 0px;
