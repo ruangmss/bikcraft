@@ -105,7 +105,7 @@
   }
 
   .perguntas-frequentes-lista {
-    margin-top: 30px;
+    margin-top: 40px;
   }
 }
 
@@ -117,5 +117,9 @@
   .vantagens-lista {
     grid-template-columns: 1fr;
     gap: 25px;
+  }
+
+  .perguntas-frequentes-lista {
+    margin-top: 30px;
   }
 }
