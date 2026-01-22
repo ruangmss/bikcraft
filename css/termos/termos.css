@@ -30,6 +30,10 @@
   font: var(--fonte-6);
 }
 
+.termos-conteudo p:last-child {
+  margin-bottom: 0px;
+}
+
 @media (max-width: 1200px) {
   .termos h1 {
     margin-bottom: 35px;
