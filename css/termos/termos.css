@@ -11,16 +11,23 @@
 .termos-conteudo {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 50px;
   color: var(--cor-1);
 }
-.termos-conteudo-item p {
-  margin: 20px 0px;
-  font: var(--fonte-6);
+
+.termos-conteudo-item {
+  padding: 20px;
+  background-color: var(--cor-11);
+  border-radius: 5px;
 }
 
 .termos-conteudo-item h2 {
   font: var(--fonte-9);
+}
+
+.termos-conteudo-item p {
+  margin: 20px 0px;
+  font: var(--fonte-6);
 }
 
 @media (max-width: 1200px) {
@@ -31,6 +38,6 @@
 
 @media (max-width: 992px) {
   .termos-conteudo {
-    gap: 20px;
+    gap: 30px;
   }
 }
