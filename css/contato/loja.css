@@ -17,6 +17,10 @@
   font: var(--fonte-11);
 }
 
+.loja-titulo span {
+  font: inherit;
+}
+
 .loja-conteudo {
   background-color: var(--cor-11);
   padding: 20px;
@@ -25,13 +29,49 @@
 
 .loja-conteudo h3 {
   font: var(--fonte-9);
-  margin: 10px 0px;
+  margin: 20px 0px;
 }
 
 .loja-conteudo-localizacao {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font: var(--fonte-5);
+}
+
+.loja-mapa {
+  width: 800px;
+  max-width: 100%;
+}
+
+.loja-horario {
+  display: flex;
+  gap: 10px;
+  font: var(--fonte-5);
+  align-items: center;
+}
+
+.loja-horario img {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 992px) {
+  .loja-mapa {
+    height: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  .loja-mapa {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .loja-mapa {
+    height: 250px;
+  }
 }
