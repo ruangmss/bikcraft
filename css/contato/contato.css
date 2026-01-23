@@ -1,6 +1,5 @@
 .contato-bg {
   background-color: var(--cor-12);
-  color: var(--cor-1);
 }
 
 .contato-titulo {
@@ -12,12 +11,15 @@
 
 .contato-titulo span {
   font: var(--fonte-5-bold);
+  color: var(--cor-1);
 }
 
 .contato-titulo h1 {
   font: var(--fonte-11);
+  color: var(--cor-1);
 }
 
 .contato-titulo h1 span {
   font: inherit;
+  color: var(--cor-1);
 }
