@@ -63,3 +63,7 @@ img[src$=".jpg"] {
 .footer hr {
   display: none;
 }
+
+.button {
+  border: none;
+}

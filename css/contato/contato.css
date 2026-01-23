@@ -1,0 +1,23 @@
+.contato-bg {
+  background-color: var(--cor-12);
+  color: var(--cor-1);
+}
+
+.contato-titulo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  gap: 10px;
+}
+
+.contato-titulo span {
+  font: var(--fonte-5-bold);
+}
+
+.contato-titulo h1 {
+  font: var(--fonte-11);
+}
+
+.contato-titulo h1 span {
+  font: inherit;
+}
