@@ -23,6 +23,7 @@
 
 .termos-conteudo-item h2 {
   font: var(--fonte-9);
+  font-weight: 500;
 }
 
 .termos-conteudo-item p {
