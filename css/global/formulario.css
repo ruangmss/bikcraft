@@ -46,6 +46,7 @@
   border: none;
   max-width: max-content;
   color: var(--cor-17);
+  cursor: pointer;
 }
 
 .form button:hover {
