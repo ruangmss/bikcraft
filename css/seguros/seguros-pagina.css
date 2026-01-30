@@ -61,7 +61,7 @@
 
 .perguntas-frequentes-lista dt {
   font: var(--fonte-6);
-  font-weight: 600;
+  font-weight: 500;
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
