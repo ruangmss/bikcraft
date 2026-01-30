@@ -68,3 +68,7 @@ img[src$=".jpg"] {
 .button {
   border: none;
 }
+
+.strong {
+  font-weight: bold;
+}

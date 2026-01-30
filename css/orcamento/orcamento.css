@@ -116,10 +116,6 @@ input[type="radio"]:checked {
   border-radius: 0 5px 5px 0;
 }
 
-.orcamento-dados button {
-  margin-top: 20px;
-}
-
 .produto-detalhes {
   display: grid;
   grid-template-columns: 1fr;
@@ -177,6 +173,29 @@ input[type="radio"]:checked {
 .orcamento-conteudo:has(#nebula:checked) .produto-detalhes:nth-of-type(6) {
   display: grid;
   border: 1.5px solid var(--cor-13);
+}
+
+.checkbox-item {
+  margin-top: 20px;
+  display: flex;
+  gap: 7.5px;
+  align-items: center;
+  grid-column: 1/-1;
+}
+
+.checkbox-item label {
+  margin: 0;
+}
+
+.checkbox-item a {
+  text-decoration: underline;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 15px;
+  accent-color: var(--cor-13);
+  cursor: pointer;
 }
 
 @media (max-width: 1200px) {
