@@ -32,7 +32,8 @@
   position: absolute;
 }
 
-.header-lista-item:hover::after {
+.header-lista-item:hover::after,
+.header-lista-item.ativo::after {
   width: 100%;
 }
 
@@ -41,7 +42,8 @@
     display: none;
   }
 
-  .header-lista-item:hover::after {
+  .header-lista-item:hover::after,
+  .header-lista-item.ativo::after {
     display: none;
   }
 }
