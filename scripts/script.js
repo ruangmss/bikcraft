@@ -27,3 +27,15 @@ function atualizar() {
 bikcraft.addEventListener("change", atualizar);
 seguro.addEventListener("change", atualizar);
 /* Script de exibição de seções conforme seleção do usuário na página Orçamento */
+
+/* Script para elecionar itens na página Orçamento */
+const parametros = new URLSearchParams(location.search);
+
+function selecionarProduto(parametro) {
+  const elemento = document.getElementById(parametro);
+  if (elemento) {
+    elemento.checked = true;
+  }
+}
+
+parametros.forEach(selecionarProduto);
