@@ -13,21 +13,6 @@ function ativarLink(link) {
 links.forEach(ativarLink);
 /* Script de identificação visual do menu ativo no momento */
 
-/* Script de exibição de seções conforme seleção do usuário na página Orçamento */
-const bikcraft = document.getElementById("bikcraft");
-const seguro = document.getElementById("seguro");
-const blocoBikcraft = document.getElementById("orcamento-bikcraft");
-const blocoSeguro = document.getElementById("orcamento-seguro");
-
-function atualizar() {
-  blocoBikcraft.style.display = bikcraft.checked ? "block" : "none";
-  blocoSeguro.style.display = seguro.checked ? "block" : "none";
-}
-
-bikcraft.addEventListener("change", atualizar);
-seguro.addEventListener("change", atualizar);
-/* Script de exibição de seções conforme seleção do usuário na página Orçamento */
-
 /* Script para elecionar itens na página Orçamento */
 const parametros = new URLSearchParams(location.search);
 
@@ -39,3 +24,23 @@ function selecionarProduto(parametro) {
 }
 
 parametros.forEach(selecionarProduto);
+/* Script para elecionar itens na página Orçamento */
+
+/* Script de exibição de perguntas na página Seguros */
+const perguntas = document.querySelectorAll(".perguntas-frequentes button");
+
+function ativarPergunta(event) {
+  const pergunta = event.currentTarget;
+  const controls = pergunta.getAttribute("aria-controls");
+  const resposta = document.getElementById(controls);
+
+  resposta.classList.toggle("ativa");
+  const ativa = resposta.classList.contains("ativa");
+  pergunta.setAttribute("aria-expanded", ativa);
+}
+
+function exibirPergunta(pergunta) {
+  pergunta.addEventListener("click", ativarPergunta);
+}
+
+perguntas.forEach(exibirPergunta);
