@@ -44,3 +44,4 @@ function exibirPergunta(pergunta) {
 }
 
 perguntas.forEach(exibirPergunta);
+/* Script de exibição de perguntas na página Seguros */
