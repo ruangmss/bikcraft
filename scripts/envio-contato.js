@@ -10,7 +10,9 @@ document.addEventListener("DOMContentLoaded", () => {
     })
       .then((response) => {
         if (response.ok) {
-          alert("E-mail enviado com sucesso!");
+          alert(
+            "E-mail enviado com sucesso! Nossa equipe retornará em até 24 horas.",
+          );
           this.reset();
         } else {
           alert("Erro ao enviar. Tente novamente.");
