@@ -13,7 +13,7 @@ function ativarLink(link) {
 links.forEach(ativarLink);
 /* Script de identificação visual do menu ativo no momento */
 
-/* Script para elecionar itens na página Orçamento */
+/* Script para selecionar itens na página Orçamento */
 const parametros = new URLSearchParams(location.search);
 
 function selecionarProduto(parametro) {
@@ -24,7 +24,7 @@ function selecionarProduto(parametro) {
 }
 
 parametros.forEach(selecionarProduto);
-/* Script para elecionar itens na página Orçamento */
+/* Script para selecionar itens na página Orçamento */
 
 /* Script de exibição de perguntas na página Seguros */
 const perguntas = document.querySelectorAll(".perguntas-frequentes button");
