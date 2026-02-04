@@ -11,7 +11,9 @@ document.addEventListener("DOMContentLoaded", () => {
       })
         .then((response) => {
           if (response.ok) {
-            alert("Orçamento enviado com sucesso!");
+            alert(
+              "Orçamento solicitado com sucesso! Nossa equipe retornará em até 24 horas.",
+            );
             this.reset();
           } else {
             alert("Erro ao enviar. Tente novamente.");
